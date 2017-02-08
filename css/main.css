@@ -7,7 +7,7 @@ h1 {
   font-family: 'Lato', Helvetica sans-serif;
   font-weight: 500;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   color: #FFF;
 }
 
@@ -26,3 +26,37 @@ h1 {
   background-size:cover;
   height: 100vh;
 }
+
+/* button */
+
+.buttondiv {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.btn {
+  color: #27ae60;
+  background-color: #27ae60;
+  border-color: #27ae60;
+  border-radius: 50px;
+  border: 2px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+}
+
+.buttontext {
+  color: #fff;
+  font-family: 'Lato', Helvetica sans-serif;
+}
+
+.btn:hover {
+    color: #27ae60;
+    background-color: #27ae60;
+    border-color: #27ae60;
+    text-decoration: none;
+}
+
+/* twitter */
