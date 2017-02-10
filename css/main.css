@@ -11,6 +11,7 @@ h1 {
   color: #FFF;
 }
 
+
 /* container */
 
 .container-fluid {
@@ -57,6 +58,30 @@ h1 {
     background-color: #27ae60;
     border-color: #27ae60;
     text-decoration: none;
+}
+
+/* quote */
+
+.quotearea {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.quote {
+  font-family: 'Lato', Helvetica sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 120px;
+  color: #FFF;
+}
+
+.authorpart {
+  font-family: 'Lato', Helvetica sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  color: #FFF;
 }
 
 /* twitter */
