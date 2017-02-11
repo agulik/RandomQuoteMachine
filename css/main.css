@@ -85,3 +85,29 @@ h1 {
 }
 
 /* twitter */
+
+.tweetarea {
+  text-align: center; margin-top: 120px;
+  font-size: 18px;
+  color: #FFF;
+}
+
+.tweetshow {
+  display: none;
+}
+
+.tweettext {
+  font-family: 'Lato', Helvetica sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.tweetbutton {
+  color: #FFF;
+}
+
+/* media */
+
+@media (max-width: 767px) {
+}
