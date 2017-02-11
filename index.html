@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,14 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
-      <div class="background">
-        <div class="container-fluid">
 
-          <h1>Random Quote Generator</h1>
+    <body>
+
+      <div class="background container-fluid">
+
+        <h1>Random Quote Generator</h1>
+
+  <!-- this is the button section -->
 
           <div class="buttondiv">
             <button class="btn btn-large" type="button">
@@ -22,23 +26,25 @@
             </button>
           </div>
 
-          <div class="quotearea">
+  <!--this is the quote + tweet section -->
+
+          <div class="datasection">
             <p id="actualquote" class="quote"></p>
             <p id="author" class="authorpart"></p>
-
-            <div class="tweetarea">
-                <div id="tweetshow" class="tweetshow">
-                  <a id="tweetit" class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">
-                    <i class="fa fa-twitter fa-1x tweetbutton">&nbsp;<span class="tweettext">share</span></i>
-                  </a>
-                </div>
+            <div class="tweetsection">
+              <div id="tweetshow" class="tweetshow">
+                <a id="tweetit" class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">
+                  <i class="fa fa-twitter fa-1x tweetbutton">&nbsp;<span class="tweettext">share</span></i>
+                </a>
+              </div>
             </div>
-
           </div>
-
-        </div>
+          
       </div>
+
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
       <script src="js/main.js"></script>
+
     </body>
+
 </html>

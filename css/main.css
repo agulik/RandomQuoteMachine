@@ -1,14 +1,14 @@
 
 body {
   height: 100%;
-  }
-
-h1 {
   font-family: 'Lato', Helvetica sans-serif;
   font-weight: 500;
   text-align: center;
-  margin-top: 50px;
   color: #FFF;
+  }
+
+h1 {
+  margin-top: 50px;
 }
 
 
@@ -24,7 +24,7 @@ h1 {
 
 .background {
   background-color: #2ecc71;
-  background-size:cover;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -50,7 +50,6 @@ h1 {
 
 .buttontext {
   color: #fff;
-  font-family: 'Lato', Helvetica sans-serif;
 }
 
 .btn:hover {
@@ -62,32 +61,26 @@ h1 {
 
 /* quote */
 
-.quotearea {
+.datasection {
   margin-left: 100px;
   margin-right: 100px;
 }
 .quote {
-  font-family: 'Lato', Helvetica sans-serif;
-  font-weight: 500;
   font-size: 20px;
-  text-align: center;
   margin-top: 120px;
   color: #FFF;
 }
 
 .authorpart {
-  font-family: 'Lato', Helvetica sans-serif;
-  font-weight: 500;
   font-size: 14px;
-  text-align: center;
   margin-top: 20px;
   color: #FFF;
 }
 
 /* twitter */
 
-.tweetarea {
-  text-align: center; margin-top: 120px;
+.tweetsection {
+  margin-top: 120px;
   font-size: 18px;
   color: #FFF;
 }
@@ -109,5 +102,31 @@ h1 {
 
 /* media */
 
-@media (max-width: 767px) {
+@media (max-width: 580px) {
+  .background {
+    background-color: #2ecc71;
+    background-size: cover;
+    height: 100vh;
+  }
+  .quote {
+    font-size: 16px;
+    margin-top: 80px;
+    color: #FFF;
+  }
+  .authorpart {
+    font-size: 13px;
+    margin-top: 20px;
+    color: #FFF;
+  }
+  .tweetsection {
+    margin-top: 80px;
+    font-size: 14px;
+    color: #FFF;
+  }
+  .tweettext {
+    font-family: 'Lato', Helvetica sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFF;
+  }
 }
